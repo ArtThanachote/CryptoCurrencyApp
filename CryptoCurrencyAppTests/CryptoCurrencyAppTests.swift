@@ -10,7 +10,7 @@ import XCTest
 
 final class CryptoCurrencyAppTests: XCTestCase {
 
-    let pincode : String = "887712"
+    let pincode : String = "112230"
     
     func test_pincode_count () {
         let validatePincode = ValidatePincode()

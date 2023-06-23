@@ -61,7 +61,7 @@ class ValidatePincode {
         return true
     }
     
-    func isDoubleDup(_ pincode: String) -> Bool {
+    func isNotCoupleDuplicate(_ pincode: String) -> Bool {
         var temp : Character?
         var count_dup = 0
         var count_double = 0
@@ -81,7 +81,6 @@ class ValidatePincode {
             if count_double > 2 {
                 return false
             }
-            
         }
         
         return true

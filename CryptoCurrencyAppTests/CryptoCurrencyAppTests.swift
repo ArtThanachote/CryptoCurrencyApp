@@ -10,9 +10,9 @@ import XCTest
 
 final class CryptoCurrencyAppTests: XCTestCase {
 
-    let pincode : String = "112230"
+    let pincode : String = "112239"
     
-    func test_pincode_count () {
+    func test_pincode_count_equal_six () {
         let validatePincode = ValidatePincode()
         let valid = validatePincode.isMoreSix(pincode)
         
@@ -33,9 +33,9 @@ final class CryptoCurrencyAppTests: XCTestCase {
         XCTAssertTrue(valid)
     }
     
-    func test_double_char_pincode () {
+    func test_couple_char_pincode () {
         let validatePincode = ValidatePincode()
-        let valid = validatePincode.isDoubleDup(pincode)
+        let valid = validatePincode.isNotCoupleDuplicate(pincode)
         
         XCTAssertTrue(valid)
     }

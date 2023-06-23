@@ -2,8 +2,7 @@
 
 CryptoCurrencyApp เป็น Application แสดง สกุลเงิน สำหรับ Mobile Developer Technical Test ใช้ Architectures แบบ Clean Swift ร่วมกับ RXSwift ครับ
 
-- โบนัส*
-  Unit Test ตัว Validate Pincode
+- โบนัส Unit Test ตัว Validate Pincode
   
 # Installation
 
